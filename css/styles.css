@@ -1,0 +1,102 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --bg-primary: linear-gradient(315deg, rgb(30, 48, 243) 0%, rgb(226, 30, 128) 100%);
+  --text-primary: -webkit-linear-gradient(180deg, #1e30f3 0%, #e21e80 100%);
+}
+
+/* Navigation Bar */
+.bg-primary {
+  background: var(--bg-primary);
+}
+
+.text-gradient {
+  background: var(--text-primary);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Content : Icons */
+.social-icons .social-icon:hover {
+  background: var(--bg-primary);
+}
+
+.social-icons > .linkedin-in:hover {
+  background: #0A66C2;
+}
+
+.social-icons > .github:hover {
+  background: #24292e;
+}
+
+.social-icons > .twitter:hover {
+  background: #1da1f2;
+}
+
+.social-icons > .facebook:hover  {
+  background: #1877F2;
+}
+
+.dev-icons .list-inline-item i {
+  transition: color 0.3s ease; 
+}
+
+.dev-icons .list-inline-item .fa-html5:hover {
+  color: #e34c26;
+}
+
+.dev-icons .list-inline-item .fa-css3-alt:hover {
+  color: #1572b6;
+}
+
+.dev-icons .list-inline-item  :hover.fa-js-square {
+  color: #f7dc6f;
+}
+
+.dev-icons .list-inline-item:hover .fa-vuejs {
+  color: #42b883;
+}
+
+.dev-icons .list-inline-item  :hover.fa-angular {
+  color: #dd0031;
+}
+
+.dev-icons .list-inline-item  :hover.fa-react {
+  color: #61dbfb;
+}
+
+.dev-icons .list-inline-item  :hover.fa-node-js {
+  color: #8bc34a;
+}
+
+.dev-icons .list-inline-item  :hover.fa-sass {
+  color: #cd669a;
+}
+
+.dev-icons .list-inline-item  :hover.fa-less {
+  color: #1d3f42;
+}
+
+.dev-icons .list-inline-item .fa-wordpress:hover {
+  color: #21759b;
+}
+
+.dev-icons .list-inline-item .fa-gulp:hover {
+  color: #cf4647;
+}
+
+.dev-icons .list-inline-item .fa-grunt:hover {
+  color: #fba919;
+}
+
+.dev-icons .list-inline-item .fa-npm:hover {
+  color: #cb3837;
+}
+
+.dev-icons .list-inline-item:hover .fa-php {
+  color: #484C89; /* Hover color for PHP icon */
+}
+
+.dev-icons .list-inline-item:hover .fa-laravel {
+  color: #f05252; /* Hover color for Laravel icon */
+}
